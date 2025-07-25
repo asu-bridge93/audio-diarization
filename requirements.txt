@@ -1,7 +1,24 @@
+# 音声文字起こしツール - 依存関係
+# 
+# 推奨: uvを使用してください（高速・自動環境管理）
+#   uv sync
+# 
+# pipの場合:
+#   pip install -r requirements.txt
+
+# PyTorch関連
 torch>=2.0.0
-torchvision>=0.15.0
 torchaudio>=2.0.0
+
+# AI/ML関連
 transformers>=4.30.0
 pyannote.audio>=3.1.0
+
+# 動画・音声処理
 moviepy>=1.0.3
+
+# Web UI（オプション）
 streamlit>=1.28.0
+
+# その他のユーティリティ
+numpy>=1.24.0
